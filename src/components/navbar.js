@@ -7,6 +7,7 @@ class NavBar extends React.Component {
             <nav className="nav">
                 <ul className="navUl">
                     <li className="homeNav">Home</li>
+                    <li className="logo"><img></img></li>
                     <li className="profileNav">Nav</li>
                 </ul>
             </nav>

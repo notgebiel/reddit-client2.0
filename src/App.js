@@ -1,5 +1,10 @@
 import './App.css';
+//import components
 import SearchBar from './components/searchBar';
+import NavBar from './components/navbar';
+import Post from './components/post';
+
+
 function App() {
   return (
     <div className="App">
@@ -8,7 +13,9 @@ function App() {
         <p>
           app
         </p>
+        <NavBar />
         <SearchBar />
+        <Post />
       </header>
     </div>
   );
