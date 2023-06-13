@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import searchBar from './components/searchBar';
 function App() {
   return (
     <div className="App">
@@ -9,6 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <searchBar />
       </header>
     </div>
   );

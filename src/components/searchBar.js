@@ -1,12 +1,19 @@
 import React from 'react';
-import { ReactDOM } from 'react';
+import ReactDOM from 'react-dom';
 
 
 class searchBar extends React.Component {
     render() {
-        <p>searchbar</p>
+        return (
+        <div className="searchBar">
+            <p>searchBar</p>
+        </div>
+        )
     }
 }
 
-const root = document.getElementById('')
 
+
+ReactDOM.render(<searchBar />, document.getElementById('root'))
+
+export default searchBar;
