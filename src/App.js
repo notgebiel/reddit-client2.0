@@ -1,15 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import searchBar from './components/searchBar';
+import SearchBar from './components/searchBar';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          app
         </p>
-        <searchBar />
+        <SearchBar />
       </header>
     </div>
   );

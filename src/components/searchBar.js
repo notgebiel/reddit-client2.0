@@ -1,8 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 
 
-class searchBar extends React.Component {
+class SearchBar extends React.Component {
     render() {
         return (
         <div className="searchBar">
@@ -13,7 +13,7 @@ class searchBar extends React.Component {
 }
 
 
+const root = ReactDOM.createRoot(document.getElementById('root'))
 
-ReactDOM.render(<searchBar />, document.getElementById('root'))
-
-export default searchBar;
+root.render(<SearchBar />)
+export default SearchBar;
